@@ -1,0 +1,13 @@
+cars=('BMW' 'Totota' 'Honda' "Rover")
+
+unset cars[2]
+cars[2]='Mercedese'
+echo "${cars[@]}"
+
+echo "${cars[1]}"
+
+echo "${!cars[@]}"
+
+echo "${#cars[@]}"
+
+

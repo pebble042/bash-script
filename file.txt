@@ -1,0 +1,2 @@
+hello me file.txt. I add the message to you
+Good bye guys.I'm coming.\n Test line

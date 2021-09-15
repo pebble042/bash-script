@@ -1,0 +1,13 @@
+#! /bin/bash
+
+function funcPrint()
+{
+	#echo "$0 $1 $2 $3 $4"
+	returnValue="I love Windows linux"
+}
+
+returnValue="I love Windows"
+echo "$returnValue"
+
+funcPrint
+echo "$returnValue"

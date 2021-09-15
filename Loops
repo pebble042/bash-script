@@ -1,0 +1,42 @@
+#!/bin/bash
+
+number=1
+
+# echo "------ WHILE LOOP ------"
+# while [ $number -le 10 ] 
+# do
+# 	#statements
+# 	echo "$number"
+# 	number=$(( number+1 ))
+
+# done
+
+#echo "------ UNTIL LOOP ------"
+# until [ $number -ge 10 ] 
+# do
+# 	#statements
+# 	echo "$number"
+# 	number=$(( number+1 ))
+
+# done
+
+echo "------ FOR LOOP ------"
+for (( i = 0; i < 10; i++ ))
+do
+	if [ $(( i%2 )) -eq 0 -a "$i" -ne 0 ] # [[ $(( i%2 )) -eq 0 && "$i" -ne 0 ]]
+	then
+		#statements
+		echo "$i is Even number"
+	fi
+done
+
+#echo " -- In loops -- "
+# for i in {0..20..2} #{start..ending..increment} 
+# do
+# 	#statements
+# 	echo $i
+# done
+
+
+
+

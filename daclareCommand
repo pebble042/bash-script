@@ -1,0 +1,13 @@
+#! /bin/bash
+
+declare -r pwdfile=/etc/passwd
+echo $pwdfile
+
+declare +r pwdfile
+
+declare -p
+
+# pwdfile=/etc/daclare.txt
+# echo $pwdfile
+
+# summary => pwdfile is assigned only-read. They cannot subsequently be assigned values or unset.

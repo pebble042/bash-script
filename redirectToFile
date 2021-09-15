@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+
+#cat > file.txt #Add
+#cat >> file.txt #Append
+
+cat << kreative
+Hello creative text
+add another line
+kreative
