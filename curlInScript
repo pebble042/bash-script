@@ -1,0 +1,5 @@
+#! /bin/bash
+
+url="https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/"
+
+curl -O ${url} > outputfile

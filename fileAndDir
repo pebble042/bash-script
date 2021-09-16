@@ -30,15 +30,27 @@
 
 # ----- Read text in file ------
 
-read -p "Enter filename from which you want to read  : " fileName
+# read -p "Enter filename from which you want to read  : " fileName
+
+# if [ -f "$fileName" ] # or [[ -f "$fileName" ]]  # -d check file have or not have
+# then
+# 	while IFS="" read -r line
+# 	do
+# 		#statements
+# 		echo "$line"
+# 	done < $fileName
+# else
+# 	echo "$fileName does't exist"
+# fi
+
+# ----- Romove file ------
+
+read -p "Enter filename from which you want to remove  : " fileName
 
 if [ -f "$fileName" ] # or [[ -f "$fileName" ]]  # -d check file have or not have
 then
-	while IFS="" read -r line
-	do
-		#statements
-		echo "$line"
-	done < $fileName
+	rm "$fileName"
+	echo "file has been deleted successful"
 else
 	echo "$fileName does't exist"
 fi

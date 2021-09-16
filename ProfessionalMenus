@@ -1,0 +1,36 @@
+#! /bin/bash
+
+# select car in BWN MERCEDESE TESLA ROVER TOYOTA
+# do
+# 	case $car in
+# 	BMW)
+# 			echo "BMW SELECTED";;
+# 	MERCEDESE)
+# 			echo "MERCEDESE SELECTED";;
+# 	TESLA)
+# 			echo "TESLA SELECTED";;
+# 	ROVER)
+# 			echo "ROVER SELECTED";;
+# 	TOYOTA)
+# 			echo "TOYOTA SELECTED";;
+# 	*)
+# 			echo "ERROR! Please select betweenn 1..5"
+						
+# 	esac
+# done
+
+# echo "press any key to continue"
+
+# while [ true ] 
+# do
+# 	#statements
+# 	read -t 3 -n 1
+# 	if [ $? = 0 ] 
+# 	then
+# 		#statements
+# 		echo "You have terminated the script."
+# 		exit;
+# 	else
+# 		echo "Waiting for you to press the key skill"
+# 	fi
+# done
